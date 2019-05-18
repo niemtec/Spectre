@@ -23,7 +23,6 @@
 <body class="{{body_class}}">
 
 <div class="site-wrapper">
-
     {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
     {{{body}}}
 
@@ -40,12 +39,10 @@
                     <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
                 <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
             </nav>
-        </div>
-        <div id="particles-js-footer"></div>
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script src="assets/js/particles.js"></script>
-    </footer>
 
+            <div id="particles-js-footer"></div>
+        </div>
+    </footer>
 </div>
 
 {{!-- The big email subscribe modal content --}}
@@ -83,7 +80,7 @@
     crossorigin="anonymous">
 </script>
 <script type="text/javascript" src="{{asset "built/jquery.fitvids.js"}}"></script>
-
+<script src="assets/js/particles.js" type="text/javascript"></script>
 {{#if pagination.pages}}
     <script src="{{asset "built/infinitescroll.js"}}"></script>
 {{/if}}
