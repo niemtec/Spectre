@@ -495,3 +495,12 @@ h6 {
     width: 100%;
     height: 100%;
 }
+
+#particles-js-footer {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
