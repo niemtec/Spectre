@@ -11,6 +11,8 @@
     <meta name="HandheldFriendly" content="True"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <!--Particles.js Script-->
+    <script type="text/javascript" src="/assets/js/particles.js"></script>
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}"/>
 
@@ -39,8 +41,6 @@
                     <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
                 <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
             </nav>
-
-            <div id="particles-js-footer"></div>
         </div>
     </footer>
 </div>
@@ -80,7 +80,6 @@
     crossorigin="anonymous">
 </script>
 <script type="text/javascript" src="{{asset "built/jquery.fitvids.js"}}"></script>
-<script src="assets/js/particles.js" type="text/javascript"></script>
 {{#if pagination.pages}}
     <script src="{{asset "built/infinitescroll.js"}}"></script>
 {{/if}}
@@ -90,6 +89,6 @@
 
 {{!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag --}}
 {{ghost_foot}}
-
+<script type="text/javascript">particlesJS("particles-js", "/assets/js/particles.js")</script>
 </body>
 </html>

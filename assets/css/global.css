@@ -487,7 +487,7 @@ h6 {
 
 
 /* Particles JS Settings */
-#particles-js, #particles-js-footer, #particles-js-post-header {
+#particles-js {
     z-index: 1;
     position: absolute;
     top: 0;
