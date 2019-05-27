@@ -32,7 +32,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #f4f8fb;
+    background: #f7f7f7;
 }
 
 .img {
@@ -113,7 +113,8 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    /*background: color(var(--bluegrey) l(-5%)) no-repeat center center;*/
+    background: color(var(--bluegrey));
     background-size: cover;
 }
 
@@ -2234,7 +2235,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    background: color(var(--bluegrey));
 }
 
 .site-footer-content {
