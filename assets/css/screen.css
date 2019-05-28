@@ -162,12 +162,15 @@ body {
 .site-title {
     z-index: 10;
     margin: 0;
-    padding: 6px;
-    background-color: color(var(--bluehighlight));
     font-size: 3.8rem;
     font-weight: 400;
     letter-spacing: 2px;
 
+}
+
+.site-title-text {
+    padding: 6px;
+    background-color: color(var(--bluehighlight));
 }
 
 .site-logo {
