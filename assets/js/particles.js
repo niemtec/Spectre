@@ -27,13 +27,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#ecf0f1'
+        value: '#61dafb'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ecf0f1'
+          color: '#61dafb'
         },
         polygon: {
           nb_sides: 5
@@ -49,25 +49,26 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 10,
+          speed: 1,
           opacity_min: 0.5,
           sync: false
         }
       },
       size: {
-        value: 3,
+        value: 3.5,
         random: true,
         anim: {
           enable: true,
-          speed: 5,
-          size_min: 0.5,
+          speed: 2,
+          size_min: 2,
           sync: false
         }
       },
       line_linked: {
         enable: true,
         distance: 150,
-        color: '#ecf0f1',
+        // color: '#ecf0f1',
+          color: '#61dafb',
         opacity: 0.8,
         width: 0.4
       },
@@ -91,11 +92,11 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true
@@ -125,7 +126,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: false,
+    retina_detect: true,
     fn: {
       interact: {},
       modes: {},
