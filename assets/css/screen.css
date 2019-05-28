@@ -402,7 +402,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     min-height: 300px;
     background: #fff center center;
     background-size: cover;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
     transition: all 0.5s ease;
 }
@@ -417,7 +417,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     overflow: hidden;
-    border-radius: 5px 5px 0 0;
+    /*border-radius: 5px 5px 0 0;*/
 }
 
 .post-card-image {
@@ -621,7 +621,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     .post-card-large .post-card-image-link {
         position: relative;
         flex: 1 1 auto;
-        border-radius: 5px 0 0 5px;
+        /*border-radius: 5px 0 0 5px;*/
     }
 
     .post-card-large .post-card-image {
@@ -707,7 +707,17 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-meta-date {
+    color: var(--bluegrey);
+}
+
+.post-full-meta > a {
+    color: var(--bluegrey);
+}
+
+.post-full-meta > a:hover, .post-full-meta > a:active {
     color: var(--blue);
+    transition: 0.2s ease-in-out;
+    text-decoration: none !important;
 }
 
 .post-full-title {
@@ -723,7 +733,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-image {
     margin: 0 -10vw -165px;
     background: var(--lightgrey) center center;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     overflow: hidden;
 }
 
@@ -949,7 +959,7 @@ Usage (In Ghost editor):
     font-size: 1.4rem;
     line-height: 1.5em;
     background: color(var(--bluegrey) l(-3%));
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 .post-full-content pre code {
@@ -1220,7 +1230,7 @@ Usage (In Ghost editor):
     line-height: 1em;
     font-weight: normal;
     user-select: text;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     transition: border-color 0.15s linear;
 
     -webkit-appearance: none;
@@ -1249,7 +1259,7 @@ Usage (In Ghost editor):
     color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
     color(var(--blue) lightness(-4%) saturation(-10%))
     );
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
     -webkit-font-smoothing: subpixel-antialiased;
@@ -1515,7 +1525,7 @@ Usage (In Ghost editor):
     color: #fff;
     background: var(--bluegrey) center center;
     background-size: cover;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
 }
 
@@ -1528,7 +1538,7 @@ Usage (In Ghost editor):
     left: 0;
     display: block;
     background: linear-gradient(135deg, rgba(0,40,60,0.8) 0%,rgba(0,20,40,0.7) 100%);
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 
     backdrop-filter: blur(2px);
 }
