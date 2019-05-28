@@ -1,10 +1,10 @@
-# Casper
+# Spectre
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+A new twist on the default theme for [Ghost](http://github.com/tryghost/ghost/). Forked from the original Casper theme and modified for a new look.
 
 &nbsp;
 
-![screenshot-desktop](https://user-images.githubusercontent.com/120485/27221326-1e31d326-5280-11e7-866d-82d550a7683b.jpg)
+![screenshot-desktop](spectre-home-page.png)
 
 &nbsp;
 
