@@ -251,7 +251,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .nav {
     display: flex;
-    margin: 0 0 0 -12px;
+    margin: 0 0 0 0px;
     padding: 0;
     list-style: none;
 }
@@ -273,7 +273,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .nav li a:hover {
     text-decoration: none;
+    color: color(var(--whitegrey));
     opacity: 1;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: #bbeffd4d;
 }
 
 .site-nav-right {
