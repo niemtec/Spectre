@@ -162,10 +162,12 @@ body {
 .site-title {
     z-index: 10;
     margin: 0;
-    padding: 0;
+    padding: 6px;
+    background-color: color(var(--bluehighlight));
     font-size: 3.8rem;
     font-weight: 400;
     letter-spacing: 2px;
+
 }
 
 .site-logo {
@@ -278,8 +280,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     color: color(var(--whitegrey));
     opacity: 1;
     transition: 0.5s;
-    border-radius: 5px;
-    background-color: #bbeffd4d;
+    background-color: color(var(--bluehighlight));
 }
 
 .site-nav-right {
