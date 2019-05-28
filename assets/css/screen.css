@@ -1559,9 +1559,9 @@ Usage (In Ghost editor):
 
 .read-next-card-header-title {
     margin: 0;
-    padding: 0 20px;
+    padding: 20px 20px 0;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.4rem;
     line-height: 1.2em;
     letter-spacing: 1px;
 }
@@ -1587,7 +1587,6 @@ Usage (In Ghost editor):
     width: 40px;
     fill: transparent;
     stroke: #fff;
-
     stroke-width: 0.5px;
     stroke-opacity: 0.65;
 }
@@ -1623,6 +1622,7 @@ Usage (In Ghost editor):
     padding: 20px 0;
     border-bottom: rgba(255,255,255,0.3) 1px solid;
     color: #fff;
+    background-color: transparent;
     font-weight: 500;
     vertical-align: top;
     transition: opacity 0.3s ease;
@@ -1634,6 +1634,9 @@ Usage (In Ghost editor):
 
 .read-next-card-content li a:hover {
     opacity: 1;
+    transition: 0.4s ease-in-out;
+    color: var(--blue) !important;
+    text-decoration: none !important;
 }
 
 .read-next-card-footer {
@@ -1644,6 +1647,12 @@ Usage (In Ghost editor):
 
 .read-next-card-footer a {
     color: #fff;
+    text-decoration: none !important;
+}
+
+.read-next-card-footer a:hover {
+    transition: 0.4s ease-in-out;
+    color: var(--blue) !important;
 }
 
 
