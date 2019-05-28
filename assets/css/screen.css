@@ -273,13 +273,15 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 10px 12px;
     color: #fff;
     opacity: 0.8;
+    background-color: transparent;
 }
 
 .nav li a:hover {
     text-decoration: none;
-    color: color(var(--whitegrey));
+    color: color(var(--whitegrey)) !important;
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    border-bottom: none !important;
     background-color: color(var(--bluehighlight));
 }
 
